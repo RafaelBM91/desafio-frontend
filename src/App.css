@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+/*
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+*/
+
+.header {
+  /* background-color: blue; */
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+
+.main {
+  /* background-color: green; */
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+  border: solid 1px;
+}
+
+aside {
+    /* background-color: orange; */
+    display: inline-block;
+    width: 28%;
+    margin-right: 2px;
+    height: 200px;
+    border-right: solid 1px;
+    vertical-align: top;
+}
+.aside__title {
+  background-color: gray;
+  padding: 5px;
+}
+.aside__coneten_input {
+  display: inline-block;
+  margin: 5px;
+}
+.aside__coneten_btn {
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.section {
+  /* background-color: purple; */
+  display: inline-block;
+  width: 70%;
+  height: 200px;
+  vertical-align: top;
+}
+.section__title {
+  background-color: gray;
+  padding: 5px;
+}
+
+.contk {
+  padding: 5px;
+  max-width: 100%;
+  margin-left: 0px !important;
+}
+.elem {
+  background-color: blue;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 2px;  
+}
+.elem:last-child { 
+  margin-right: 0px;
+}
+.elem span {
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.elem--Out {
+  animation: bounceOut 1.1s;
+}
+
+@keyframes bounceOut {
+  0% {
+    transform: translateY(50%);
+  }
+  10% {
+    transform: translateY(100%);
+  }
+  20% {
+    transform: translate(10%, 0);
+    -webkit-transform: translate(10%, 0);
+    -o-transform: translate(10%, 0);
+    -moz-transform: translate(10%, 0);
+  }
+  50% {
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(50%, 0);
+    -o-transform: translate(50%, 0);
+    -moz-transform: translate(50%, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+    -webkit-transform: translate(100%, 0);
+    -o-transform: translate(100%, 0);
+    -moz-transform: translate(100%, 0);
+  }
+}
